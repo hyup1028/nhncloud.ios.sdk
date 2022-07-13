@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param type The type of log
  @param message The message of log
  @param userFields The userFields of log
- @return The instance of a ToastLog
+ @return The instance of a NHNCloudLog
  */
 + (instancetype)logWithLevel:(NHNCloudLogLevel)level
                         type:(NSString *)type
@@ -72,7 +72,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param type The type of log
  @param message The message of log
  @param userFields The userFields of log
- @return The instance of a ToastLog
+ @return The instance of a NHNCloudLog
  */
 - (instancetype)initWithLevel:(NHNCloudLogLevel)level
                          type:(NSString *)type

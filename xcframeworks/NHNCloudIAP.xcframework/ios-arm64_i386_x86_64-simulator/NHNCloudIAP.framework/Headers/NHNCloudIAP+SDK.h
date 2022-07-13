@@ -24,8 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
  SDK to manage in-app-purchase
  
  ## Initialize Precautions
- * NHNCloudIAP SDK uses the UserID set in ToastSDK.
- * After you set the UserID, you need to initialize the ToastIAP Module.
+ * NHNCloudIAP SDK uses the UserID set in NHNCloudSDK.
+ * After you set the UserID, you need to initialize the NHNCloudIAP Module.
  * At initialization, you must register the delegate to receive the payment result as mandatory.
  * After initialization, reprocessing for uncompleted payments and automatic renewal of Auto-Renewal Subscription occur.
  

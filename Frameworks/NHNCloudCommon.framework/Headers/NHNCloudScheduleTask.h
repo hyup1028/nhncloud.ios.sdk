@@ -1,6 +1,6 @@
 //
 //  NHNCloudScheduleTask.h
-//  ToastPush
+//  NHNCloudPush
 //
 //  Created by JooHyun Lee on 2018. 12. 21..
 //  Copyright © 2018년 NHN. All rights reserved.
